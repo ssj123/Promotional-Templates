@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--[if lt IE 9]>
+	<script type="text/javascript"  src="http://www.ijquery.cn/js/html5shiv.js"></script>
+	<![endif]-->
+	<title>宣传模板</title>
+<style type="text/css">
+body{
+	font-family: '微软雅黑';
+}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	img{
+		width: 300px;
+		height: 100px;
+	}
+	.enlarge{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		bottom: 50px;
+		left: 0;
+	}
+	.box{
+		text-align: center;
+
+	}
+	.logo{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		-webkit-border-radius: 50%; 
+		-moz-border-radius: 50%; 
+		behavior: url(PIE.htc);
+		background: red;
+		margin: 0 auto;
+		border: 5px solid #fff;
+		position: relative;
+		top: -25px;
+	}
+	.head{
+		width: 100%;
+		height: 50px;
+		background: #fe5880;
+	}
+	h3{
+		position: relative;
+		top: -20px;
+	}
+	.blue{
+		color: #1abcb5;
+	}
+	.red{
+		color: purple;
+		margin-left: 15px;
+	}
+	.box .p1{
+
+	}
+
+	.box1{
+		width: 100%;
+		text-align: center;
+		position: relative;
+	}
+	
+	.box1 .clk{
+		border-bottom: 2px solid #D66385;
+		color:#D66385;
+	}
+	.box1 .reg{
+		    border-bottom: 2px solid #eeeeee;
+		    color: #cdcdcd;
+	}
+	.box1 div{
+		width: 50%;
+		height: 50px;
+		float: left;
+		margin-top: 20px;
+		border-bottom: 2px solid #eeeeee;
+	}
+	.box1 .p1{
+		line-height: 50px;
+	
+	}
+	.p1 .left{
+		float: left;
+		margin-left: 10px;
+	}
+	.right{
+		float: right;
+		margin-right: 10px;
+	}
+	.box1 em{
+		color: #A9072B;
+		margin-left: 5PX;
+	}
+	
+	/*评论*/
+	.box1>.left-comment{
+		width: 100%;
+		position: absolute;
+		top: 80px;
+	}
+	.box1 .user{
+		width: 100%;
+		height: 300px;
+		border-top: 2px solid #eeeeee;
+		margin-top: 10px;
+	}
+	.box1 article{
+		width: 20%;
+		height: 100%;
+		float: left;
+	}
+	.box1 article div{
+		width: 50px;
+		height: 50px;
+		margin-top: 20px;
+		margin-left: 10px;
+		border-radius: 50%;
+		-webkit-border-radius: 50%; 
+		-moz-border-radius: 50%; 
+		behavior: url(PIE.htc);
+		background: red;
+		float: left;
+	}
+	.box1 section{
+		width: 80%;
+		margin-top: 30px;
+		/*margin-left: 20px;*/
+		text-align: left;
+		float: left;
+	}
+	.box1 section .name span{
+		float: right;
+		color: green;
+	}
+	.box1 section i{
+		color: #c0c0c0;
+	}
+	.box1 section .name p{
+		margin-top: 20px;
+	}
+
+	/*介绍*/
+	.box1 .right-suggestt{
+		background: red;
+		width: 100%;
+		height: 500px;
+		position: absolute;
+		top: 80px;
+		display: none;
+	}
+
+	/*尾部固定下载栏*/
+	footer{
+		width: 100%;
+		height: 50px;
+		background: rgba(76,76,76,0.7);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); 
+		position: fixed;
+		bottom: 0;
+		left: 0;
+	}
+	footer .btn{
+		width: 80%;
+		height: 50px;
+		text-align: center;
+		border-radius: 25px;
+		-webkit-border-radius: 25px; 
+		-moz-border-radius: 25px; 
+		behavior: url(PIE.htc);
+		background: #fe5880;
+		margin: 0 auto;
+		line-height: 50px;
+		position: relative;
+		z-index: 99999;
+	}
+	footer .btn span:first-child{
+		color: yellow;
+		margin-right: 20px;
+	}footer .btn span:first-child+span{
+		color: #fff;
+		margin-left: 20px;
+	}
+</style>
+</head>
+<body>
+	<div class="box">
+		<div class="head"></div>
+		<div class="logo"></div>
+		<h3>交友神器</h3>
+		<em class="blue">1776万</em><span>下载</span><em class="red">推荐指数：5星</em>
+		<p>交友神器，是一款同城城在线交友app，1分钟快速搜索附近单身美女，成功率高达99.82%<em class="red">赶紧试试吧！</em></p>
+	</div>
+	<div class="box1">
+		<div class="clk" id="comment">评论</div>
+		<div class="reg" id="suggest">介绍</div>
+		<p  class="p1">
+			<span class="left">综合评分<em>5.0</em></span>
+			<span class="right"><em>683686</em>参加</span>
+		</p>
+
+		<section class="left-comment" id="left">
+			<div class="user">
+				<article><div></div></article>
+				<section>
+					<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
+					<p>非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
+					<img src="img/01.jpg">
+				</section>
+			</div>
+			<div class="user">
+				<article><div></div></article>
+				<section>
+					<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
+					<p>非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
+					<img src="">
+				</section>
+			</div>
+			<div class="user">
+				<article><div></div></article>
+				<section>
+					<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
+					<p>非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
+					<img src="">
+				</section>
+			</div>
+			<div class="user">
+				<article><div></div></article>
+				<section>
+					<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
+					<p>非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
+					<img src="">
+				</section>
+			</div>
+		</section>
+
+		<section class="right-suggestt" id="right">
+		</section>
+	</div>
+	<footer>
+		<div class="btn">
+			<span>最快一分钟搞定</span><span>立即下载</span>
+		</div>
+	</footer>
+
+<script type="text/javascript">
+
+var suggest = document.getElementById('suggest');
+var comment = document.getElementById('comment');
+var leftComment = document.getElementById('left');
+var rightSuggestt = document.getElementById('right');
+
+comment.onclick = function () {
+	this.className = "clk";
+	suggest.className = "reg";
+	leftComment.style.display = "block";
+	rightSuggestt.style.display = "none";
+}
+suggest.onclick = function () {
+	this.className = "clk";
+	comment.className = "reg";
+	rightSuggestt.style.display = "block"
+	leftComment.style.display = "none";
+}
+
+comment.ontouchend = function () {
+	this.className = "clk";
+	suggest.className = "reg";
+	leftComment.style.display = "block";
+	rightSuggestt.style.display = "none";
+}
+suggest.ontouchend = function () {
+	this.className = "clk";
+	comment.className = "reg";
+	rightSuggestt.style.display = "block"
+	leftComment.style.display = "none";
+}
+
+var oImg = document.getElementsByTagName('img');
+
+var n = 0;
+oImg[0].onclick = function () {
+	if (n == 0 ) {
+	this.className = "enlarge";
+	n = 1;
+	}else{
+	this.className = "";
+	n = 0;
+	}
+}
+</script>
+
+</body>
+</html>
