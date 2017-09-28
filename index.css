@@ -323,3 +323,21 @@
 		color: #fff;
 		margin-left: 20px;
 	}
+
+/*媒体查询*/
+@media screen and (max-width:1127px) {
+			.cm{
+				max-width: 639px;
+			}
+		}
+
+@media (min-device-width : 414px) and (max-device-width : 736px) {
+	.cm{
+				max-width: 414px;
+			}
+}
+@media (min-device-width : 320px) and (max-device-width : 413px) {
+	.cm{
+				max-width: 320px;
+			}
+}
