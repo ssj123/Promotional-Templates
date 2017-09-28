@@ -327,17 +327,17 @@
 /*媒体查询*/
 @media screen and (max-width:1127px) {
 			.cm{
-				max-width: 639px;
+				max-width: 840px;
 			}
 		}
 
 @media (min-device-width : 414px) and (max-device-width : 736px) {
 	.cm{
-				max-width: 414px;
+				max-width: 100%;
 			}
 }
 @media (min-device-width : 320px) and (max-device-width : 413px) {
 	.cm{
-				max-width: 320px;
+				max-width: 100%;
 			}
 }
