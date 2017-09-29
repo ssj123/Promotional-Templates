@@ -83,7 +83,7 @@
 	
 	/*三张图片*/
 	.pic{
-		margin-top: 1.5rem;
+		padding: 3rem 0;
 		display:-webkit-box;
 		display: -moz-box;
 		display: -ms-flexbox;
@@ -172,7 +172,7 @@
 		/*margin-left: 20px;*/
 		text-align: left;
 		float: left;
-		color: #9b9b9b;
+		color: #333;
 	}
 
 	.box1 section .ico img{
@@ -209,90 +209,6 @@
 		width: 100%;
 		height: 100%;
 	}
-/* 	.box1 section .tm1{
-	background: url(img/res/1_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2{
-	background: url(img/res/1_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3{
-	background: url(img/res/1_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4{
-	background: url(img/res/1_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-	.box1 section .tm1-2{
-	background: url(img/res/2_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-2{
-	background: url(img/res/2_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-2{
-	background: url(img/res/2_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-2{
-	background: url(img/res/2_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-		.box1 section .tm1-3{
-	background: url(img/res/3_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-3{
-	background: url(img/res/3_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-3{
-	background: url(img/res/3_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-3{
-	background: url(img/res/3_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-		.box1 section .tm1-4{
-	background: url(img/res/4_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-4{
-	background: url(img/res/4_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-4{
-	background: url(img/res/4_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-4{
-	background: url(img/res/4_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-	.box1 section .tm1-5{
-	background: url(img/res/5_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-5{
-	background: url(img/res/5_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-5{
-	background: url(img/res/5_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-5{
-	background: url(img/res/5_4t.PNG);
-	background-repeat: no-repeat;
-} */
 
 	/*介绍*/
 	.box1 .right-suggestt{
@@ -374,7 +290,7 @@
 		line-height: 2.5rem;
 	}
 	.box1 section .name {
-	    line-height: 5rem;
+	    line-height: 6rem;
 	}
 	.box1 .user{
 		height: 22rem;
