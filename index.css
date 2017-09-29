@@ -358,6 +358,9 @@
 		margin: 2rem 2rem;
 		margin-top: 3rem;
 	}
+	.box1 section .enlarge img{
+		left: 0;
+	}
 }
 @media (min-device-width : 320px) and (max-device-width : 413px) {
 	.cm{
@@ -373,5 +376,8 @@
 	.box1 section .ico{
 		margin: 2rem 2rem;
 		margin-top: 3rem;
+	}
+	.box1 section .enlarge img{
+		left: 0;
 	}
 }
