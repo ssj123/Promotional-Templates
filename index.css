@@ -361,12 +361,18 @@
 	.box1 section .enlarge img{
 		left: 14%;
 	}
+	footer{
+		font-size: 26px;
+	}
 }
 @media (min-device-width : 320px) and (max-device-width : 767px) {
 	.cm{
 				max-width: 100%;
-				font-size: 26px;
+				font-size: 32px;
 			}
+	.box1 section .p3{
+		line-height: 2.5rem;
+	}
 	.box1 section .name {
 	    line-height: 5rem;
 	}
@@ -380,5 +386,8 @@
 	.box1 section .enlarge img{
 		left: 0;
 		width: 100%;
+	}
+	footer{
+		font-size: 32px;
 	}
 }
