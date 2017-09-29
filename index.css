@@ -76,6 +76,7 @@
 	}
 	.box .p2{
 		margin-top:1.5rem;
+		margin: 0 3.5rem;
 	}
 	.box .p2 .red{
 		margin-left:0;
@@ -133,11 +134,11 @@
 	}
 	.p1 .left{
 		float: left;
-		margin-left: 10px;
+		margin-left: 1.5rem;
 	}
 	.right{
 		float: right;
-		margin-right: 10px;
+		margin-right: 1.5rem;
 	}
 	.box1 em{
 		color: #f5182a;
