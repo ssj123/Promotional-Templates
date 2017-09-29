@@ -10,7 +10,63 @@
 		<link rel="stylesheet" type="text/css" href="indexie8.css">
 	<![endif]-->
 	<title>宣传模板</title>
+	<link rel="shortcut icon" type="text/css" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script>
+	    /**
+	     *打印js对象详细信息
+	     */
+	    function alertObj(obj)
+	    {
+	        var description = "";
+	        for ( var i in obj)
+	        {
+	            var property = obj[i];
+	            description += i + " = " + property + "\n";
+	        }
+	        alert(description);
+	    }
+
+	    /**
+	     *通过class名和标签名获取css样式对象组
+	     */
+	    function getClassNames(classStr, tagName)
+	    {
+	        if (document.getElementsByClassName)
+	        {
+	            return document.getElementsByClassName(classStr)
+	        } else
+	        {
+	            //为了兼容ie8及其以下版本的方法
+	            var nodes = document.getElementsByTagName(tagName), ret = [];
+	            for (i = 0; i < nodes.length; i++)
+	            {
+	                if (hasClass(nodes[i], classStr))
+	                {
+	                    ret.push(nodes[i])
+	                }
+	            }
+	            return ret;
+	        }
+	    }
+
+	    /**
+	     *判断节点class存在性
+	     */
+	    function hasClass(tagStr, classStr)
+	    {
+	        //这个正则表达式是因为class可以有多个,判断是否包含 
+	        var arr = tagStr.className.split(/\s+/);
+	        for ( var i = 0; i < arr.length; i++)
+	        {
+	            if (arr[i] == classStr)
+	            {
+	                return true;
+	            }
+	        }
+	        return false;
+	    }
+	</script>
 </head>
 <body>
 	<div class="cm">
@@ -18,7 +74,7 @@
 
 			<div class="box">
 				<div class="head"></div>
-				<div class="logo"></div>
+				<div class="logo"><img src="img/favicon.png"></div>
 				<div class="h3">勾勾约会</div>
 				<p><em class="blue">1776万</em><span>下载</span><em class="red">推荐指数：5星</em></p>
 				<p class="p2">"勾勾约会，是一款同城在线交友APP，1分钟快速搜索附近单身美女，成功率高达99.82%，<em class="red">赶紧试试吧！</em></p>
@@ -38,7 +94,7 @@
 
 				<section class="left-comment" id="left">
 					<div class="user">
-						<article><div class="ico"></div></article>
+						<article><div class="ico"><img src="img/a1.png"></div></article>
 						<section>
 							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
 							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
@@ -54,7 +110,7 @@
 					</div>
 
 					<div class="user">
-						<article><div class="ico"></div></article>
+						<article><div class="ico"><img src="img/a2.png"></div></article>
 						<section>
 							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
 							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
@@ -70,7 +126,7 @@
 					</div>
 
 					<div class="user">
-						<article><div class="ico"></div></article>
+						<article><div class="ico"><img src="img/a3.png"></div></article>
 						<section>
 							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
 							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
@@ -86,7 +142,7 @@
 					</div>
 
 					<div class="user">
-						<article><div class="ico"></div></article>
+						<article><div class="ico"><img src="img/a4.png"></div></article>
 						<section>
 							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
 							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
@@ -102,7 +158,7 @@
 					</div>
 
 					<div class="user">
-						<article><div class="ico"></div></article>
+						<article><div class="ico"><img src="img/a5.png"></div></article>
 						<section>
 							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
 							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
@@ -122,40 +178,9 @@
 				</section>
 
 				<section class="right-suggestt" id="right">
-					<div class="user">
-						<article><div class="ico"></div></article>
-						<section>
-							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
-							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
-							<div class="item tm1"><img src="img/res/1_1t.PNG"></div>
-							<div class="enlarge"><img src="img/res/1.PNG" ></div>
-							<div class="item tm2"><img src="img/res/1_2t.PNG"></div>
-							<div class="enlarge"><img src="img/res/2.PNG" ></div>
-							<div class="item tm3"><img src="img/res/1_3t.PNG"></div>
-							<div class="enlarge"><img src="img/res/3.PNG" ></div>
-							<div class="item tm4"><img src="img/res/1_4t.PNG"></div>
-							<div class="enlarge"><img src="img/res/4.PNG" ></div>
-						</section>
-					</div>
 
 					<div class="user">
-						<article><div class="ico"></div></article>
-						<section>
-							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
-							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
-							<div class="item tm1-2"><img src="img/res/2_1t.PNG"></div>
-							<div class="enlarge"><img src="img/res/5.PNG" ></div>
-							<div class="item tm2-2"><img src="img/res/2_2t.PNG"></div>
-							<div class="enlarge"><img src="img/res/6.PNG" ></div>
-							<div class="item tm3-2"><img src="img/res/2_3t.PNG"></div>
-							<div class="enlarge"><img src="img/res/7.PNG" ></div>
-							<div class="item tm4-2"><img src="img/res/2_4t.PNG"></div>
-							<div class="enlarge"><img src="img/res/8.PNG" ></div>
-						</section>
-					</div>
-
-					<div class="user">
-						<article><div class="ico"></div></article>
+						<article><div class="ico"><img src="img/favicon.png"></div></article>
 						<section>
 							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
 							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
@@ -171,7 +196,39 @@
 					</div>
 
 					<div class="user">
-						<article><div class="ico"></div></article>
+						<article><div class="ico"><img src="img/a1.png"></div></article>
+						<section>
+							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
+							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
+							<div class="item tm1"><img src="img/res/1_1t.PNG"></div>
+							<div class="enlarge"><img src="img/res/1.PNG" ></div>
+							<div class="item tm2"><img src="img/res/1_2t.PNG"></div>
+							<div class="enlarge"><img src="img/res/2.PNG" ></div>
+							<div class="item tm3"><img src="img/res/1_3t.PNG"></div>
+							<div class="enlarge"><img src="img/res/3.PNG" ></div>
+							<div class="item tm4"><img src="img/res/1_4t.PNG"></div>
+							<div class="enlarge"><img src="img/res/4.PNG" ></div>
+						</section>
+					</div>
+
+					<div class="user">
+						<article><div class="ico"><img src="img/a2.png"></div></article>
+						<section>
+							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
+							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
+							<div class="item tm1-2"><img src="img/res/2_1t.PNG"></div>
+							<div class="enlarge"><img src="img/res/5.PNG" ></div>
+							<div class="item tm2-2"><img src="img/res/2_2t.PNG"></div>
+							<div class="enlarge"><img src="img/res/6.PNG" ></div>
+							<div class="item tm3-2"><img src="img/res/2_3t.PNG"></div>
+							<div class="enlarge"><img src="img/res/7.PNG" ></div>
+							<div class="item tm4-2"><img src="img/res/2_4t.PNG"></div>
+							<div class="enlarge"><img src="img/res/8.PNG" ></div>
+						</section>
+					</div>
+
+					<div class="user">
+						<article><div class="ico"><img src="img/a4.png"></div></article>
 						<section>
 							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
 							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
@@ -185,7 +242,23 @@
 							<div class="enlarge"><img src="img/res/16.PNG" ></div>
 						</section>
 					</div>
-					
+
+					<div class="user">
+						<article><div class="ico"><img src="img/a5.png"></div></article>
+						<section>
+							<p class="name"><i>当前使用时间</i><em>7小时</em><span>约成功</span></p>
+							<p class="p3">非常不错的软件，是我目前所用最好的一个，骗子死全家！</p>
+							<div class="item tm1-5"><img src="img/res/5_1t.PNG"></div>
+							<div class="enlarge"><img src="img/res/17.PNG" ></div>
+							<div class="item tm2-5"><img src="img/res/5_2t.PNG"></div>
+							<div class="enlarge"><img src="img/res/18.PNG" ></div>
+							<div class="item tm3-5"><img src="img/res/5_3t.PNG"></div>
+							<div class="enlarge"><img src="img/res/19.PNG" ></div>
+							<div class="item tm4-5"><img src="img/res/5_4t.PNG"></div>
+							<div class="enlarge"><img src="img/res/20.PNG" ></div>
+						</section>
+					</div>
+
 				</section>
 			</div>
 
@@ -233,8 +306,10 @@ suggest.ontouchend = function () {
 	leftComment.style.display = "none";
 }
 
-var item = document.getElementsByClassName('item');
-var oImg = document.getElementsByClassName('enlarge');
+// var item = document.getElementsByClassName('item');
+// var oImg = document.getElementsByClassName('enlarge');
+var item = getClassNames('item', 'div');
+var oImg = getClassNames('enlarge', 'div');
 
 
 for (var i = 0; i < item.length; i++) {

@@ -8,8 +8,8 @@
 		padding: 0;
 	}
 	img{
-		width: 300px;
-		height: 100px;
+		width: 100%;
+		height: 100%;
 	}
 	.cm{
 		max-width: 639px;
@@ -26,11 +26,15 @@
 		bottom: 50px;
 		left: 0;
 		z-index: 9999999;
+		background: rgba(76,76,76,0.7);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); 
 		display:none;
 	}
 	.box1 section .enlarge img{
-		width:100%;
+		width:auto;
 		height: 100%;
+		position: relative;
+		left:40%;
 	}
 	.box{
 		text-align: center;
@@ -43,11 +47,11 @@
 		-webkit-border-radius: 50%; 
 		-moz-border-radius: 50%; 
 		behavior: url(PIE.htc);
-		background: #ccc;
+
 		margin: 0 auto;
 		border: 0.6rem solid #fff;
 		position: relative;
-		top: -4rem;
+		top: -5rem;
 	}
 	.head{
 		width: 100%;
@@ -151,7 +155,7 @@
 		margin-top: 2.7rem;
 	}
 	.box1 article{
-		width: 20%;
+		width: 15%;
 		height: 100%;
 		float: left;
 	}
@@ -159,11 +163,7 @@
 		width: 5.625rem;
 		height: 5.625rem;
 		margin-right: 2.7rem;
-		border-radius: 50%;
-		-webkit-border-radius: 50%; 
-		-moz-border-radius: 50%; 
-		behavior: url(PIE.htc);
-		background: red;
+
 		float: left;
 	}
 	.box1 section{
@@ -174,10 +174,10 @@
 		float: left;
 		color: #9b9b9b;
 	}
-	.box1 section .ico{
-		background: url(img/1.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
+
+	.box1 section .ico img{
+		width:100%;
+		height: 100%;
 	}
 	.box1 section .name{
 		line-height: 2rem;
@@ -355,7 +355,7 @@
 		height: 18rem;
 	}
 	.box1 section .ico{
-		margin: 5rem 5rem;
+		margin: 2rem 2rem;
 		margin-top: 3rem;
 	}
 }
@@ -371,7 +371,7 @@
 		height: 18rem;
 	}
 	.box1 section .ico{
-		margin: 5rem 5rem;
+		margin: 2rem 2rem;
 		margin-top: 3rem;
 	}
 }
