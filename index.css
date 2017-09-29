@@ -343,7 +343,7 @@
 			}
 		}
 
-@media (min-device-width : 414px) and (max-device-width : 736px) {
+@media (min-device-width : 768px) and (max-device-width : 1024px) {
 	.cm{
 				max-width: 100%;
 				font-size: 26px;
@@ -359,10 +359,10 @@
 		margin-top: 3rem;
 	}
 	.box1 section .enlarge img{
-		left: 0;
+		left: 14%;
 	}
 }
-@media (min-device-width : 320px) and (max-device-width : 413px) {
+@media (min-device-width : 320px) and (max-device-width : 767px) {
 	.cm{
 				max-width: 100%;
 				font-size: 26px;
@@ -379,5 +379,6 @@
 	}
 	.box1 section .enlarge img{
 		left: 0;
+		width: 100%;
 	}
 }
