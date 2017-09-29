@@ -277,6 +277,14 @@
 	.box1 section .enlarge img{
 		left: 14%;
 	}
+	.box1 .user{
+		height: 25rem;
+	}
+	.box1 section .item{
+		margin: 2rem;
+		width: 7rem;
+		height: 12rem;
+	}
 	footer{
 		font-size: 26px;
 	}
@@ -293,7 +301,7 @@
 	    line-height: 6rem;
 	}
 	.box1 .user{
-		height: 23rem;
+		height: 28rem;
 	}
 	.box1 section .ico{
 		margin: 2rem 2rem;
@@ -304,9 +312,9 @@
 		width: 100%;
 	}
 	.box1 section .item{
-		    margin: 1rem;
-    width: 8rem;
-    height: 8rem;
+		margin: 2rem;
+		width: 7rem;
+		height: 12rem;
 	}
 	footer{
 		font-size: 32px;
