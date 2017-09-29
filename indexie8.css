@@ -23,7 +23,9 @@
 	    margin-top: -16px;
 	    font-size: 32px;
 	}
-
+		.box1 section .enlarge{{
+			bottom: 102.4;
+		}
 	.red{
 		margin-left: 32px;
 	}
