@@ -39,7 +39,7 @@
         }  
 	.box1 section .enlarge img{
 		width: 100%;
-		height: auto;
+		// height: auto;
 		position: relative;
 		left:40%;
 	}
@@ -277,6 +277,10 @@
 			}
 			.add{
 				height: 26rem;
+			}
+			.box1 section .enlarge img{
+				height: 100%;
+    			width: auto;
 			}
 		}
 
