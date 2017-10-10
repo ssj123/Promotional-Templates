@@ -275,6 +275,9 @@
 			.box1 section .enlarge{
 				bottom: 50px;
 			}
+			.add{
+				height: 26rem;
+			}
 		}
 
 @media (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -305,6 +308,9 @@
 		margin: 2rem;
 		width: 7rem;
 		height: 12rem;
+	}
+	.add{
+		height: 45rem;
 	}
 	footer{
 		font-size: 26px;
@@ -339,6 +345,9 @@
 		margin: 2rem;
 		width: 7rem;
 		height: 12rem;
+	}
+	.add{
+		height: 60rem;
 	}
 	footer{
 		font-size: 46px;
