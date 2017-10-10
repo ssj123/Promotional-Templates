@@ -23,9 +23,9 @@
 		width: 100%;
 		height: 100%;
 		position: fixed;
-		bottom: 6.4rem;
+		bottom: 0;
 		left: 0;
-		z-index: 9999999;
+		z-index: 999;
 		background: rgba(76,76,76,0.7);
 		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); 
 		display:none;
@@ -244,6 +244,7 @@
 		position: fixed;
 		bottom: 0;
 		left: 0;
+		z-index: 99999;
 	}
 	footer .btn{
 		width: 80%;
@@ -272,9 +273,9 @@
 			.cm{
 				max-width: 840px;
 			}
-			.box1 section .enlarge{
-				bottom: 50px;
-			}
+			// .box1 section .enlarge{
+			// 	bottom: 50px;
+			// }
 			.add{
 				height: 26rem;
 			}
@@ -292,9 +293,9 @@
 	.box1 section .name {
 	    line-height: 5rem;
 	}
-	.box1 section .enlarge{
-				bottom: 50px;
-			}
+	// .box1 section .enlarge{
+	// 			bottom: 50px;
+	// 		}
 	.box1 .user{
 		height: 18rem;
 	}
