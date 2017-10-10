@@ -30,9 +30,16 @@
 		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); 
 		display:none;
 	}
+	.box1 section .enlarge img:after{   
+            content: '.';   
+            height: 0;   
+            visibility: hidden;   
+            /*display: block;*/  
+            clear:both;   
+        }  
 	.box1 section .enlarge img{
-		width:auto;
-		height: 100%;
+		width: 100%;
+		height: auto;
 		position: relative;
 		left:40%;
 	}
@@ -66,6 +73,7 @@
 	}
 	.blue{
 		color: #00b4fe;
+		margin-right: 0.6rem;
 	}
 	.red{
 		margin-left: 2rem;
@@ -142,7 +150,7 @@
 	}
 	.box1 em{
 		color: #f5182a;
-		margin-left: 5px;
+		margin-right: 0.3125rem;
 	}
 	
 	/*评论*/
@@ -288,7 +296,7 @@
 		margin-top: 3rem;
 	}
 	.box1 section .enlarge img{
-		left: 14%;
+		left: 0%;
 	}
 	.box1 .user{
 		height: 25rem;
