@@ -92,7 +92,7 @@
 		width: 160px;
 		height: 160px;
 		float: left\9;
-		padding-right: 50px;
+		padding: 0 26px;
 	}
 	.pic img{
 		width: 100%;
@@ -142,7 +142,7 @@
 	.box1>.left-comment{
 		width: 100%;
 		position: absolute;
-		top: 60px;
+		top: 150px;
 	}
 	.box1 .user{
 		width: 100%;
@@ -161,8 +161,7 @@
 	}
 	.box1 section{
 		width: 80%;
-		/*margin-top: 30px;*/
-		/*margin-left: 20px;*/
+
 		text-align: left;
 		float: left;
 		color: #9b9b9b;
@@ -203,90 +202,6 @@
 		width: 100%;
 		height: 100%;
 	}
-/* 	.box1 section .tm1{
-	background: url(img/res/1_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2{
-	background: url(img/res/1_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3{
-	background: url(img/res/1_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4{
-	background: url(img/res/1_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-	.box1 section .tm1-2{
-	background: url(img/res/2_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-2{
-	background: url(img/res/2_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-2{
-	background: url(img/res/2_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-2{
-	background: url(img/res/2_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-		.box1 section .tm1-3{
-	background: url(img/res/3_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-3{
-	background: url(img/res/3_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-3{
-	background: url(img/res/3_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-3{
-	background: url(img/res/3_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-		.box1 section .tm1-4{
-	background: url(img/res/4_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-4{
-	background: url(img/res/4_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-4{
-	background: url(img/res/4_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-4{
-	background: url(img/res/4_4t.PNG);
-	background-repeat: no-repeat;
-}
-
-	.box1 section .tm1-5{
-	background: url(img/res/5_1t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm2-5{
-	background: url(img/res/5_2t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm3-5{
-	background: url(img/res/5_3t.PNG);
-	background-repeat: no-repeat;
-}
-.box1 section .tm4-5{
-	background: url(img/res/5_4t.PNG);
-	background-repeat: no-repeat;
-} */
 
 	/*介绍*/
 	.box1 .right-suggestt{
@@ -294,7 +209,7 @@
 		width: 100%;
 	
 		position: absolute;
-		top: 60px;
+		top: 150px;
 		display: none;
 	}
 

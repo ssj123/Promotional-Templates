@@ -38,8 +38,8 @@
             clear:both;   
         }  
 	.box1 section .enlarge img{
-		width: 100%;
-		// height: auto;
+		width: auto;
+		height: 100%;
 		position: relative;
 		left:40%;
 	}
@@ -183,7 +183,6 @@
 	.box1 section{
 		width: 80%;
 		margin-top: 2rem;
-		/*margin-left: 20px;*/
 		text-align: left;
 		float: left;
 		color: #333;
@@ -273,9 +272,6 @@
 			.cm{
 				max-width: 840px;
 			}
-			// .box1 section .enlarge{
-			// 	bottom: 50px;
-			// }
 			.add{
 				height: 26rem;
 			}
@@ -293,9 +289,6 @@
 	.box1 section .name {
 	    line-height: 5rem;
 	}
-	// .box1 section .enlarge{
-	// 			bottom: 50px;
-	// 		}
 	.box1 .user{
 		height: 18rem;
 	}
@@ -304,7 +297,7 @@
 		margin-top: 3rem;
 	}
 	.box1 section .enlarge img{
-		left: 0%;
+		left: 14%;
 	}
 	.box1 .user{
 		height: 25rem;
